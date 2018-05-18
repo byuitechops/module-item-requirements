@@ -1,0 +1,29 @@
+{
+  "name": "module-item-requirements",
+  "version": "1.0.0",
+  "description": "To help standardize the module items in Canvas, this module will set the requirements of the module items, according to their type",
+  "main": "main.js",
+  "dependencies": {
+    "canvas-wrapper": "github:byuitechops/canvas-wrapper"
+  },
+  "devDependencies": {
+    "async": "^2.6.0",
+    "child-development-kit": "github:byuitechops/child-development-kit",
+    "tap": "^10.7.3"
+  },
+  "scripts": {
+    "start": "node ./node_modules/child-development-kit/runChild.js",
+    "test": "tap ./node_modules/child-development-kit/runChild.js -T"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuitechops/module-item-requirements.git"
+  },
+  "author": "Seth Childers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byuitechops/module-item-requirements/issues"
+  },
+  "homepage": "https://github.com/byuitechops/module-item-requirements#readme",
+  "childType": "postImport"
+}
