@@ -8,7 +8,6 @@
  * Quizzes and Assignments - Requirement will be to "Submit"
  ****************************************************************************/
 const canvas = require('canvas-api-wrapper');
-const asyncLib = require('async');
 
 module.exports = (course, stepCallback) => {
     /************************************
